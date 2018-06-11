@@ -1,0 +1,17 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "NODE_ENV=mock nodemon --inspect ./index.js",
+    "dev": "NODE_ENV=development nodemon --inspect ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-session": "^5.8.1",
+    "nodemon": "^1.17.5"
+  }
+}
